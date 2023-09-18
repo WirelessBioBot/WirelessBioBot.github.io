@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.header {
+    background-color: lightgrey;
+}
+
+.content {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.wrapper:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.left {
+    float: left;
+    padding: 20px 20px 20px 0;
+}
+
+.logo {
+    float: left;
+    padding: 18px 18px 18px 0;
+}
+
+.name {
+    font-family: Arial;
+    font-size: 30px;
+    float: right;
+    margin-left: 40px;
+    margin-top: 32px;
+}
+
+.right {
+    float: right;
+    padding: 20px;
+}
+
+.list {
+    margin-top: 40px;
+}
+
+.list li {
+    float: left;
+    margin-right: 30px;
+    list-style-type: none;
+    font-family: Arial;
+    font-size: 18px;
+}
+
+.list li a:link {
+    color: black;
+    text-decoration: none;
+}
+
+.list li a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+table {
+}
+
+.footer {
+    background-color: lightgrey;
+}
+
+.footer__text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    float: right;
+    padding: 15px 0;
+}
