@@ -6,7 +6,7 @@
 }
 
 .header {
-    background-color: lightgrey;
+    background-color: #26425A;
 }
 
 .content {
@@ -31,6 +31,7 @@
 }
 
 .name {
+    color: #E1CBD7;
     font-family: Arial;
     font-size: 30px;
     float: right;
@@ -56,24 +57,137 @@
 }
 
 .list li a:link {
-    color: black;
+    color: #E1CBD7;
     text-decoration: none;
 }
 
 .list li a:visited {
-    color: black;
+    color: #E1CBD7;
     text-decoration: none;
 }
 
-table {
+body {
+    background-color: rgba(195, 139, 212, 0.5);
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 30px;
+}
+
+.list_title {
+    list-style-type: none;
+}
+
+.block_title {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.block {
+    background-color: #E1CBD7;
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid #26425A;
+    margin-bottom: 30px;
+}
+
+.references__item {
+    margin-left: 20px;
+    margin-bottom: 8px;
+}
+
+.references__item a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.references__item p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.references__item a:link {
+    color: #190019;
+}
+
+.references__item a:visited {
+    color: #190019;
+}
+
+.background {
+}
+
+.table {
+    border-collapse: collapse;
+}
+
+.table_header {
+    text-align: center;
+}
+
+.odd {
+    background-color: #DFB6B2;
+}
+
+.even {
+    background-color: #854F6C;
+}
+
+.table_item {
+    text-align: center;
+    padding: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid black;
+}
+
+.form_item {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    height: 32px;
+    border: 2px solid #26425A;
+    border-radius: 32px;
+    padding: 6px;
+    margin-bottom: 10px;
+}
+
+select, textarea {
+    border: 2px solid #26425A;
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+select::-webkit-scrollbar {
+    display: none;
+}
+
+.agreement {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.form_text {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+}
+
+.button {
+    margin-top: 10px;
 }
 
 .footer {
-    background-color: lightgrey;
+    background-color: #26425A;
 }
 
 .footer__text {
     font-family: Arial, Helvetica, sans-serif;
+    color: #E1CBD7;
     font-size: 20px;
     float: right;
     padding: 15px 0;
