@@ -88,43 +88,43 @@
         <label>
             ФИО:
             <br>
-            <input type="text" name="fio" placeholder="Введите ФИО">
+            <input type="text" name="fio" placeholder="Введите ФИО" required>
         </label>
         <br>
         <label>
             Телефон:
             <br>
-            <input type="tel" name="tel" placeholder="Введите телефон">
+            <input type="tel" name="tel" placeholder="Введите телефон" required>
         </label>
         <br>
         <label>
             Email:
             <br>
-            <input type="email" name="email" placeholder="Введите email">
+            <input type="email" name="email" placeholder="Введите email" required>
         </label>
         <br>
         <label>
             Дата рождения:
             <br>
-            <input type="date" name="birthday">
+            <input type="date" name="birthday" required>
         </label>
         <br>
         <p>
             Пол:
             <br>
             <label>
-                <input type="radio" name="gender" value="male">
+                <input type="radio" name="gender" value="male" required>
                 Мужской
             </label>   
             <label>
-                <input type="radio" name="gender" value="female">
+                <input type="radio" name="gender" value="female" required>
                 Женский
             </label>
         </p>
         <label>
             Выберете свои любимые языки:
             <br>
-            <select name="favorite_language" multiple>
+            <select name="favorite_language" multiple required>
                 <option value="Pascal">Pascal</option>
                 <option value="C">C</option>
                 <option value="C++">C++</option>
@@ -139,10 +139,10 @@
             </select>
         </label>
         <br>
-        <textarea name="biography">Расскажите немного о себе</textarea>
+        <textarea name="biography" required>Расскажите немного о себе</textarea>
         <br>
         <label>
-            <input type="checkbox" name="agreement">
+            <input type="checkbox" name="agreement" required>
             С контрактом ознакомлен (а)
         </label>
         <br>
