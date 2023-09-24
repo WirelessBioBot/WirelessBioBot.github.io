@@ -160,11 +160,11 @@
                 <form action="/" method="POST" class="block">
                 <h2 class="block_title">Форма</h2>
                     <label>
-                        <input class="form_item" type="text" name="fio" placeholder="Введите ФИО" required>
+                        <input class="form_item" type="text" name="fio" placeholder="Введите ФИО" required pattern="^[А-Яа-яЁё\s]+$">
                     </label>
                     <br>
                     <label>
-                        <input class="form_item" type="tel" name="tel" placeholder="Введите телефон" required>
+                        <input class="form_item" type="tel" name="tel" placeholder="Введите телефон" required pattern="^[ 0-9]+$">
                     </label>
                     <br>
                     <label>
