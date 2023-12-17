@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Главная</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container-fluid header__container">
+            <div class="row">
+                <div class="col-md-4 header__content-left">
+                    <div class="row">
+                        <div class="col-4 header__logo">
+                            <img class="header__logo-img" src="images/logo.png" alt="Логотип">
+                        </div>
+                        <div class="col-6 header__title">HTML и CSS</div>
+                    </div>
+                </div>
+                <nav class="col-md-8 header__nav">
+                    <ul class="row header__menu">
+                        <li class="col-md-3 header__menu-item">
+                            <a class="header__menu-link" href="https://wirelessbiobot.github.io/web_4/#id_ul">Список ul</a>
+                        </li>
+                        <li class="col-md-3 header__menu-item">
+                            <a class="header__menu-link" href="https://wirelessbiobot.github.io/web_4/#id_ol">Список ol</a>
+                        </li>
+                        <li class="col-md-3 header__menu-item">
+                            <a class="header__menu-link" href="https://wirelessbiobot.github.io/web_4/#id_table">Таблица</a>
+                        </li>
+                        <li class="col-md-3 header__menu-item">
+                            <a class="header__menu-link" href="https://wirelessbiobot.github.io/web_4/#id_form">Форма</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+
+        <section class="flex-box-order">
+            <div class="container flex-box-order__container">
+
+
+                <!--======== UL ========-->
+
+
+                <h1 class="flex-box-order__title">Сайт, демонстрирующий выполненную работу</h1>
+                <ul class="flex-box-order__list" id="id_ul">
+                    <li class="flex-box-order__list-item">
+                        <a class="flex-box-order__list-link" href="http://www.kubsu.ru/index.php">Основной сайт КубГУ</a>
+                    </li>
+                    <li class="flex-box-order__list-item">
+                        <a class="flex-box-order__list-link" href="https://www.kubsu.ru/index.php">Основной сайт КубГУ в протоколе https</a>
+                    </li>
+                    <li class="flex-box-order__list-item">
+                        <a class="flex-box-order__list-link" href="https://ru.wikipedia.org/wiki/Портал:Ботаника/Избранное_изображение/Архив/Октябрь_2008—ноябрь_2009">
+                            <img src="images/image.jpg" width="100" alt="Цветочек">
+                        </a>
+                    </li>
+                    <li class="flex-box-order__list-item">
+                        <a class="flex-box-order__list-link" href="/inner.html">Сокращенная ссылка на внутреннюю страницу</a>
+                    </li>
+                    <li class="flex-box-order__list-item">
+                        <a class="flex-box-order__list-link" href="/index.html">Сокращенная ссылка на главную страницу</a>
+                    </li>
+                    <li class="flex-box-order__list-item">
+                        <a class="flex-box-order__list-link" href="#Unique_Id">Ссылка на кнопку внизу</a>
+                    </li>
+                    <li class="flex-box-order__list-item">
+                        <a class="flex-box-order__list-link" href="https://www.youtube.com/watch?v=xm3YgoEiEDc&t=400s&ab_channel=10Hours&t=10000">Ссылка с тремя параметрами в URL</a>
+                    </li>
+                    <li class="flex-box-order__list-item">
+                        <a class="flex-box-order__list-link" href="https://ru.wikipedia.org/wiki/Бэтмен#toc">Ссылка с параметром id в URL</a>
+                    </li>
+                    <li class="flex-box-order__list-item">
+                        <a class="flex-box-order__list-link" href="inner.html">Относительная ссылка на страницу в текущем каталоге</a>
+                    </li>
+                    <li class="flex-box-order__list-item">
+                        <a class="flex-box-order__list-link" href="about/about_inner.html">Относительная ссылка на страницу в каталоге about</a>
+                    </li>
+                    <li class="flex-box-order__list-item">
+                        <p>Кто мог знать, что <a class="flex-box-order__list-link" href="https://www.zoopark-rostov.ru/index.php/novosti-i-sobytiya/667-5-interesnykh-faktov-o-kapibarakh">капибары</a> завоюют такую любовь общественности?</p>
+                    </li>
+                    <li class="flex-box-order__list-item">
+                        <a class="flex-box-order__list-link" href="https://stackoverflow.com/questions/396145/how-can-i-vertically-center-a-div-element-for-all-browsers-using-css#answers-header">Ссылка на фрагмент страницы стороннего сайта</a>
+                    </li>
+                    <li class="flex-box-order__list-item">
+                        <p>
+                            Слева прямоугольник, справа круг, голосуй сейчас мой друг!
+                        </p>
+                        <img src="images/image2.jpg" alt="Бэтмен против Супермена" usemap="#Picture" width="300">
+                        <map name="Picture">
+                            <area shape="rect" coords="0,0,100,150" href="https://ru.wikipedia.org/wiki/Бэтмен" title="За Бэта!" alt="Бэтмен">
+                            <area shape="circle" coords="230,80,50" href="https://ru.wikipedia.org/wiki/Супермен" title="Я супер как и он!" alt="Супермен">
+                        </map>
+                    </li>
+                        
+                    <li class="flex-box-order__list-item">
+                        <a class="flex-box-order__list-link" href="/">Ссылка с пустым href</a>
+                    </li>
+                    <li class="flex-box-order__list-item">
+                        <a class="flex-box-order__list-link">Ссылка без href</a>
+                    </li>
+                    <li class="flex-box-order__list-item">
+                        <a class="flex-box-order__list-link" href="inner.html" rel="nofollow">Ссылка, по которой запрещен переход поисковикам</a>
+                    </li>
+                    <li class="flex-box-order__list-item">
+                        <!--noindex-->
+                            <a class="flex-box-order__list-link" href="inner.html">Текст этой ссылки запрещен для индексации поисковиками</a>
+                        <!--/noindex-->
+                    </li>
+                    <li class="flex-box-order__list-item">
+                        <a class="flex-box-order__list-link" href="">Ссылка на файл на сервере ftp с авторизацией</a>
+                    </li>
+                </ul>
+
+
+                <!--======== OL ==========-->
+
+
+                <ol class="flex-box-order__ol-list" id="id_ol">
+                    <li class="flex-box-order__list-item">
+                        <a class="flex-box-order__list-link" href="https://ru.wikipedia.org/wiki/C%2B%2B" title="Скорость и контроль!">C++</a>
+                    </li>
+                    <li class="flex-box-order__list-item">
+                        <a class="flex-box-order__list-link" href="https://ru.wikipedia.org/wiki/Java" title="Мультиплатформенность наше всё!">Java</a>
+                    </li>
+                </ol>
+
+
+                <!--======== TABLE ========-->
+
+
+                <table class="flex-box-order__table" id="id_table">
+                    <tr class="flex-box-order__table-odd">
+                        <th class="flex-box-order__table-header flex-box-order__table-item" colspan="4">
+                            Название таблицы
+                        </th>
+                    </tr>
+                    <tr class="flex-box-order__table-even">
+                        <th class="flex-box-order__table-item">Колонка 1</th>
+                        <th class="flex-box-order__table-item">Колонка 2</th>
+                        <th class="flex-box-order__table-item">Колонка 3</th>
+                        <th class="flex-box-order__table-item">Колонка 4</th>
+                    </tr>
+                    <tr class="flex-box-order__table-odd">
+                        <td class="flex-box-order__table-item" colspan="2">11</td>
+                        <td class="flex-box-order__table-item">31</td>
+                        <td class="flex-box-order__table-item">41</td>
+                    </tr>
+                    <tr class="flex-box-order__table-even">
+                        <td class="flex-box-order__table-item">12</td>
+                        <td class="flex-box-order__table-item">22</td>
+                        <td class="flex-box-order__table-item">32</td>
+                        <td class="flex-box-order__table-item">42</td>
+                    </tr>
+                    <tr class="flex-box-order__table-odd">
+                        <td class="flex-box-order__table-item" rowspan="2">13</td>
+                        <td class="flex-box-order__table-item">23</td>
+                        <td class="flex-box-order__table-item">33</td>
+                        <td class="flex-box-order__table-item">43</td>
+                    </tr>
+                    <tr class="flex-box-order__table-even">
+                        <td class="flex-box-order__table-item">24</td>
+                        <td class="flex-box-order__table-item" colspan="2">34</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+
+        <section class="form-section">
+            <div class="container">
+                <form id="id_form" action="/" method="POST" class="block">
+                    <h2 class="block_title">Форма</h2>
+                        <label>
+                            <input class="form_item" type="text" name="fio" placeholder="Введите ФИО" required pattern="^[А-Яа-яЁё\s]+$">
+                        </label>
+                        <br>
+                        <label>
+                            <input class="form_item" type="tel" name="tel" placeholder="Введите телефон" required pattern="^[ 0-9]+$">
+                        </label>
+                        <br>
+                        <label>
+                            <input class="form_item" type="email" name="email" placeholder="Введите email" required>
+                        </label>
+                        <br>
+                        <label class="form_text">
+                            Дата рождения:
+                            <input class="form_item" type="date" name="birthday" required>
+                        </label>
+                        <br>
+                        <p class="form_text">
+                            Пол:
+                            <br>
+                            <label class="form_text">
+                                <input type="radio" name="gender" value="male" required>
+                                Мужской
+                            </label>   
+                            <label>
+                                <input type="radio" name="gender" value="female" required>
+                                Женский
+                            </label>
+                        </p>
+                        <br>
+                        <label class="form_text">
+                            Выберете свои любимые языки:
+                            <br>
+                            <br>
+                            <select name="favorite_language" multiple required>
+                                <option value="Pascal">Pascal</option>
+                                <option value="C">C</option>
+                                <option value="C++">C++</option>
+                                <option value="JavaScript">JavaScript</option>
+                                <option value="PHP">PHP</option>
+                                <option value="Python">Python</option>
+                                <option value="Java">Java</option>
+                                <option value="Haskel">Haskel</option>
+                                <option value="Clojure">Clojure</option>
+                                <option value="Prolog">Prolog</option>
+                                <option value="Scala">Scala</option>
+                            </select>
+                        </label>
+                        <br>
+                        <textarea name="biography" required>Расскажите немного о себе</textarea>
+                        <br>
+                        <label class="agreement">
+                            <input type="checkbox" name="agreement" required>
+                            С контрактом ознакомлен (а)
+                        </label>
+                        <br>
+                        <input class="form_item button" type="submit" id="Unique_Id" value="Отправить">
+                    </form>
+            </div>
+        </section>
+        <section class="calculate">
+            <div class="container">
+                <h2 class="calculator" id="calculator">Составьте свой заказ</h2>
+                <form>
+                    <p>Выберите товар:
+                        <select name="myselect" required>
+                            <option value="1">Молоток 55 руб.</option>
+                            <option value="2">Отвертка 40 руб.</option>
+                            <option value="3">Гвозди 10 руб.</option>
+                        </select>
+                    </p>
+                    <p>Введите количество: <input id="quantity" class="quantity"></p>
+                    <div class="myradios" id="myradios">
+                        <label><input type="radio" name="myradio" value="40">Без резиновой ручки</label>
+                        <label><input type="radio" name="myradio" value="40">Резиновая ручка</label>
+                        <label><input type="radio" name="myradio" value="40">С гвоздодером</label>
+                    </div>
+                    <p class="mycheckbox" id="mycheckbox">
+                        <label>
+                            Пакет? (10 руб.) <input value="10" type="checkbox">
+                        </label>
+                    </p>
+                </form>
+                <button id="button">Рассчитать</button>
+                <p id="finalPrice"></p>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="footer__text">Иван Казаков</div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
