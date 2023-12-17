@@ -41,6 +41,7 @@ ul {
 }
 
 .header__title {
+    margin-top: 10px;
     font-size: 24px;
 }
 
@@ -52,6 +53,10 @@ ul {
 
 .header__menu {
     list-style-type: none;
+}
+
+.header__menu-item {
+    margin-top: 18px;
 }
 
 .header__menu-link {
