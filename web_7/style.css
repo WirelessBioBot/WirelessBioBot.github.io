@@ -203,11 +203,13 @@ ul {
     
 }
 .slick-arrow.slick-prev{
+
 	left: 0;
-	
+    background: url('img/sl-arrow_l.svg') 0 0 / 100% no-repeat;
 }
 .slick-arrow.slick-next{
 	right: 0;
+    background: url('img/sl-arrow_r.svg') 0 0 / 100% no-repeat;
 	
 }
 .slick-arrow.slick-disabled{
